@@ -1,0 +1,1 @@
+Range("B2").Delete

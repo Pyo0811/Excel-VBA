@@ -1,0 +1,2 @@
+'書式情報へアクセスして背景色を変更
+Range("A1").Interior.Color = RGB(255,0,0)

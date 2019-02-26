@@ -1,0 +1,2 @@
+'名前付き引数形式のコード
+Range("B2:D20").AutoFilter Field:=2, Criteria1:="りんご"

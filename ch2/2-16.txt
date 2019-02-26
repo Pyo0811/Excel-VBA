@@ -1,0 +1,5 @@
+'セルA1に値を設定
+Range("A1").Value = 100
+
+'セル範囲C3:E3に値を設定
+Range("C1:E3").Value = "VBA"

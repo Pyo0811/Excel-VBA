@@ -1,0 +1,1 @@
+Range("B2:D20").AutoFilter 2, Criteria1:="‚è‚ñ‚²"

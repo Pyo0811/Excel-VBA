@@ -1,0 +1,5 @@
+'ActiveCellを使ってアクティブな単一セルを操作対象に指定
+ActiveCell.Value = "VBA"
+
+'Selectionを使って選択セル範囲全体を操作対象に指定
+Selection.Value = "VBA"

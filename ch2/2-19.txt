@@ -1,0 +1,1 @@
+Workbooks("“Œ‹ž–{“X.xlsx").Worksheets(1).Range("A1:C5").Copy

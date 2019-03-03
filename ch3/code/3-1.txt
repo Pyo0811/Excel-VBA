@@ -1,0 +1,6 @@
+Sub macro3-1()
+    Dim foo As Long                 '変数の宣言
+    foo = 10                        '変数へ代入
+    foo = foo * 5                   'fooの値に「5」を乗算した値を再代入
+    Debug.Print "fooの値：", foo    '変数の値を出力して確認
+End Sub

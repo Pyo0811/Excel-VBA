@@ -1,0 +1,11 @@
+Dim foo As Long       'マクロ外で変数fooを宣言
+
+Sub macro1()
+    foo = 10          'マクロ内では宣言していない変数fooを利用
+    Debug.Print "macro1:", foo
+End Sub
+
+Sub macro2()
+    foo = foo + 15    'マクロ内では宣言していない変数fooを利用
+    Debug.Print "macro2:", foo
+End Sub

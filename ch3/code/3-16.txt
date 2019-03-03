@@ -1,0 +1,8 @@
+Select Case Range("A1").Value
+    Case "編集中"
+        MsgBox "必要項目を入力してください"
+    Case "完了"
+        MsgBox "入力したデータを元に計算を開始します"
+    Case Else
+        MsgBox "予期せぬ値が入力されています。確認をお願いします"
+End Select

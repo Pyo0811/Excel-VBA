@@ -1,0 +1,5 @@
+Dim i As Long     'カウンタ用変数
+'カウンタ用変数「i」を1 ～ 5に変化させながら処理を繰り返す
+For i = 1 To 5
+    Cells(i, 1).Value = i & "回目の処理"
+Next

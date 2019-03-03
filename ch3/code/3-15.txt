@@ -1,0 +1,1 @@
+Debug.Print IIF(Time<#12:00#,"Œß‘O","ŒßŒã")

@@ -1,0 +1,2 @@
+MsgBox Prompt:="Œ¢‚æ‚è‚à”L‚ªD‚«‚Å‚·‚©?", _
+    Buttons:=vbYesNo, Title:="ƒƒ“ƒjƒƒƒ“’²¸"

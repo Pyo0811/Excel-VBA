@@ -1,0 +1,3 @@
+Dim result As String
+result = InputBox("¤•i–¼‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢")
+Debug.Print "“ü—Í’lF", result

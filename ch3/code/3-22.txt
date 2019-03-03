@@ -1,0 +1,10 @@
+'リスト格納用の変数とメンバー用変数を両方Variant型で用意する
+Dim tmpList As Variant, tmp As Variant
+
+'Array関数を利用して値やオブジェクトの簡易リスト（配列）を作成
+tmpList = Array("巨人", "阪神", "広島", "ヤクルト", "中日", "横浜")
+
+'リストの個々のメンバーについてループ処理
+For Each tmp In tmpList
+    Debug.Print tmp
+Next

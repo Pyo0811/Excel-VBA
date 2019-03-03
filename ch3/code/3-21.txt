@@ -1,0 +1,5 @@
+Dim rng As Range
+For Each rng In Range("B3:B7")
+    'セルの値の末尾に「　様」を付け加える
+    rng.Value = rng.Value & " 様"
+Next

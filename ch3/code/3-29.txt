@@ -1,0 +1,11 @@
+'選択セル範囲を受け取る変数を宣言
+Dim selectedRange As Range, rng As Range
+
+'セル選択ダイアログを表示
+Set selectedRange = _
+Application.InputBox("対象セル範囲を選択してください", Type:=8)
+
+'選択セル範囲に対してループ処理
+For Each rng In selectedRange
+    rng.Next.Value = "〇"
+Next

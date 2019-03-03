@@ -1,0 +1,5 @@
+Dim i As Long
+    For i = 0 To 10 Step 3
+        Range("B2:D2").Offset(i). _
+            Borders(xlEdgeBottom).LineStyle = xlContinuous
+Next

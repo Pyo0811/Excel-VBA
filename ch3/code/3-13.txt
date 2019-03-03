@@ -1,0 +1,5 @@
+If Range("A1").Value = "" Then
+    MsgBox "セルA1に値を入力してください"
+Else
+    MsgBox "セルA1に値が入力されています"
+End If

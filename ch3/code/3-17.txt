@@ -1,0 +1,12 @@
+Select Case Range("A1").Value
+    Case 1
+        MsgBox "値が１です"
+    Case Is < 5
+        MsgBox "値が1ではなく、5より下です"
+    Case 6, 8, 10
+        MsgBox "値が6・8・10のいずれかです"
+    Case 15 To 20
+        MsgBox "値が15~20の間です"
+    Case Else
+        MsgBox "上記の範囲に当てはまらない値です"
+End Select

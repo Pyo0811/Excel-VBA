@@ -1,0 +1,4 @@
+Dim i As Long    'カウンタ用変数
+For i = 1 To 5
+    Debug.Print "処理回数：", i
+Next

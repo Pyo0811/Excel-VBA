@@ -1,0 +1,4 @@
+Dim i As Long
+    For i = 5 To 1 Step -1
+    Debug.Print "カウンタ変数の値：", i
+Next

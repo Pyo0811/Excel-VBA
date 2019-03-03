@@ -1,0 +1,4 @@
+Dim num As Long                  '数値を扱うつもりの変数「num」を宣言
+num = 10                         '値「10」を代入
+nun = num * 5                    '元の値に「5」を乗算した値を再代入
+Debug.Print "numの値：", num     '結果を表示

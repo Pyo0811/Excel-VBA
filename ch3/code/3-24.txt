@@ -1,0 +1,7 @@
+Dim diceNum As Long
+'擬似サイコロを振って「6」が出るまで処理を繰り返す
+Do
+    '1 ～ 6の値をランダムに生成して出力
+    diceNum = Int(Rnd * 6) + 1
+    Debug.Print "サイコロの目:", diceNum
+Loop Until diceNum = 6

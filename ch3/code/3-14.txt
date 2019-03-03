@@ -1,0 +1,5 @@
+If Range("A1").Value <> "完了" Then
+    MsgBox "入力を完了させてからマクロを実行してください"
+    Exit Sub
+End If
+'以降、セルA1の値が「完了」である場合の処理を記述

@@ -1,0 +1,5 @@
+If Range("A1").Value = 10 Then
+    MsgBox "セルA1の値は「10」です"
+Else
+    MsgBox "セルA1の値は「10」ではありません"
+End If

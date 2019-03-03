@@ -1,0 +1,3 @@
+Dim rng As Range            'Rangeの固有オブジェクト型で変数を宣言
+Set rng = Range("A1:C3")    '変数へオブジェクトを代入
+rng.Value = "VBA"           '変数を通じてオブジェクトを操作

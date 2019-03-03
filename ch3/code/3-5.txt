@@ -1,0 +1,4 @@
+Dim str As String, dateVal as Date    '文字列と日付を扱う変数を宣言
+str = "指定日："                      '変数strに文字列を代入
+dateVal = #10/05/2018#                '変数dateValに日付を代入
+Debug.Print str, dateVal              '変数の値を表示

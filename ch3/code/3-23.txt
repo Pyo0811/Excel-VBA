@@ -1,0 +1,5 @@
+Do While ActiveCell.Value <> ""
+    ActiveCell.Next.Value = "〇"
+    'アクティブセルを1つ下のセルに更新
+    ActiveCell.Offset(1).Select
+Loop

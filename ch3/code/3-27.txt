@@ -1,0 +1,9 @@
+Dim result As VbMsgBoxResult
+    '「はい」「いいえ」ボタンを持つメッセージボックスを表示して選択結果を取得
+    result = MsgBox("犬よりも猫が好きですか？ ", Buttons:=vbYesNo)
+    '結果により処理を分岐
+    If result = vbYes Then
+        MsgBox "猫の方がお好きなんですね"
+    Else
+        MsgBox "犬の方がお好きなんですね"
+End If
